@@ -13,6 +13,7 @@
 		BAA03441256FEB9C008AB19D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA03440256FEB9C008AB19D /* Preview Assets.xcassets */; };
 		BAA0344C256FEB9D008AB19D /* BowWOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0344B256FEB9D008AB19D /* BowWOWTests.swift */; };
 		BAA03457256FEB9D008AB19D /* BowWOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */; };
+		BAA03468256FF40A008AB19D /* RandomDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA03467256FF40A008AB19D /* RandomDog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BAA03452256FEB9D008AB19D /* BowWOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowWOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWUITests.swift; sourceTree = "<group>"; };
 		BAA03458256FEB9D008AB19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA03467256FF40A008AB19D /* RandomDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		BAA03438256FEB98008AB19D /* BowWOW */ = {
 			isa = PBXGroup;
 			children = (
+				BAA03467256FF40A008AB19D /* RandomDog.swift */,
 				BAA03439256FEB98008AB19D /* BowWOWApp.swift */,
 				BAA0343B256FEB98008AB19D /* ContentView.swift */,
 				BAA0343D256FEB9C008AB19D /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA03468256FF40A008AB19D /* RandomDog.swift in Sources */,
 				BAA0343C256FEB98008AB19D /* ContentView.swift in Sources */,
 				BAA0343A256FEB98008AB19D /* BowWOWApp.swift in Sources */,
 			);
