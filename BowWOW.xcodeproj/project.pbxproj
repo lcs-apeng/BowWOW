@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAA0343A256FEB98008AB19D /* BowWOWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA03439256FEB98008AB19D /* BowWOWApp.swift */; };
+		BAA0343C256FEB98008AB19D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0343B256FEB98008AB19D /* ContentView.swift */; };
+		BAA0343E256FEB9C008AB19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA0343D256FEB9C008AB19D /* Assets.xcassets */; };
+		BAA03441256FEB9C008AB19D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA03440256FEB9C008AB19D /* Preview Assets.xcassets */; };
+		BAA0344C256FEB9D008AB19D /* BowWOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0344B256FEB9D008AB19D /* BowWOWTests.swift */; };
+		BAA03457256FEB9D008AB19D /* BowWOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAA03448256FEB9D008AB19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0342E256FEB98008AB19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA03435256FEB98008AB19D;
+			remoteInfo = BowWOW;
+		};
+		BAA03453256FEB9D008AB19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAA0342E256FEB98008AB19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA03435256FEB98008AB19D;
+			remoteInfo = BowWOW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAA03436256FEB98008AB19D /* BowWOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowWOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA03439256FEB98008AB19D /* BowWOWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWApp.swift; sourceTree = "<group>"; };
+		BAA0343B256FEB98008AB19D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAA0343D256FEB9C008AB19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA03440256FEB9C008AB19D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAA03442256FEB9C008AB19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA03447256FEB9D008AB19D /* BowWOWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowWOWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA0344B256FEB9D008AB19D /* BowWOWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWTests.swift; sourceTree = "<group>"; };
+		BAA0344D256FEB9D008AB19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA03452256FEB9D008AB19D /* BowWOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowWOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWUITests.swift; sourceTree = "<group>"; };
+		BAA03458256FEB9D008AB19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAA03433256FEB98008AB19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA03444256FEB9D008AB19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA0344F256FEB9D008AB19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAA0342D256FEB98008AB19D = {
+			isa = PBXGroup;
+			children = (
+				BAA03438256FEB98008AB19D /* BowWOW */,
+				BAA0344A256FEB9D008AB19D /* BowWOWTests */,
+				BAA03455256FEB9D008AB19D /* BowWOWUITests */,
+				BAA03437256FEB98008AB19D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAA03437256FEB98008AB19D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA03436256FEB98008AB19D /* BowWOW.app */,
+				BAA03447256FEB9D008AB19D /* BowWOWTests.xctest */,
+				BAA03452256FEB9D008AB19D /* BowWOWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAA03438256FEB98008AB19D /* BowWOW */ = {
+			isa = PBXGroup;
+			children = (
+				BAA03439256FEB98008AB19D /* BowWOWApp.swift */,
+				BAA0343B256FEB98008AB19D /* ContentView.swift */,
+				BAA0343D256FEB9C008AB19D /* Assets.xcassets */,
+				BAA03442256FEB9C008AB19D /* Info.plist */,
+				BAA0343F256FEB9C008AB19D /* Preview Content */,
+			);
+			path = BowWOW;
+			sourceTree = "<group>";
+		};
+		BAA0343F256FEB9C008AB19D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAA03440256FEB9C008AB19D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAA0344A256FEB9D008AB19D /* BowWOWTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0344B256FEB9D008AB19D /* BowWOWTests.swift */,
+				BAA0344D256FEB9D008AB19D /* Info.plist */,
+			);
+			path = BowWOWTests;
+			sourceTree = "<group>";
+		};
+		BAA03455256FEB9D008AB19D /* BowWOWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */,
+				BAA03458256FEB9D008AB19D /* Info.plist */,
+			);
+			path = BowWOWUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAA03435256FEB98008AB19D /* BowWOW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA0345B256FEB9D008AB19D /* Build configuration list for PBXNativeTarget "BowWOW" */;
+			buildPhases = (
+				BAA03432256FEB98008AB19D /* Sources */,
+				BAA03433256FEB98008AB19D /* Frameworks */,
+				BAA03434256FEB98008AB19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BowWOW;
+			productName = BowWOW;
+			productReference = BAA03436256FEB98008AB19D /* BowWOW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAA03446256FEB9D008AB19D /* BowWOWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA0345E256FEB9D008AB19D /* Build configuration list for PBXNativeTarget "BowWOWTests" */;
+			buildPhases = (
+				BAA03443256FEB9D008AB19D /* Sources */,
+				BAA03444256FEB9D008AB19D /* Frameworks */,
+				BAA03445256FEB9D008AB19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA03449256FEB9D008AB19D /* PBXTargetDependency */,
+			);
+			name = BowWOWTests;
+			productName = BowWOWTests;
+			productReference = BAA03447256FEB9D008AB19D /* BowWOWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAA03451256FEB9D008AB19D /* BowWOWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA03461256FEB9D008AB19D /* Build configuration list for PBXNativeTarget "BowWOWUITests" */;
+			buildPhases = (
+				BAA0344E256FEB9D008AB19D /* Sources */,
+				BAA0344F256FEB9D008AB19D /* Frameworks */,
+				BAA03450256FEB9D008AB19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAA03454256FEB9D008AB19D /* PBXTargetDependency */,
+			);
+			name = BowWOWUITests;
+			productName = BowWOWUITests;
+			productReference = BAA03452256FEB9D008AB19D /* BowWOWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAA0342E256FEB98008AB19D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BAA03435256FEB98008AB19D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					BAA03446256FEB9D008AB19D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BAA03435256FEB98008AB19D;
+					};
+					BAA03451256FEB9D008AB19D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BAA03435256FEB98008AB19D;
+					};
+				};
+			};
+			buildConfigurationList = BAA03431256FEB98008AB19D /* Build configuration list for PBXProject "BowWOW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAA0342D256FEB98008AB19D;
+			productRefGroup = BAA03437256FEB98008AB19D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA03435256FEB98008AB19D /* BowWOW */,
+				BAA03446256FEB9D008AB19D /* BowWOWTests */,
+				BAA03451256FEB9D008AB19D /* BowWOWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAA03434256FEB98008AB19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA03441256FEB9C008AB19D /* Preview Assets.xcassets in Resources */,
+				BAA0343E256FEB9C008AB19D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA03445256FEB9D008AB19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA03450256FEB9D008AB19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAA03432256FEB98008AB19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA0343C256FEB98008AB19D /* ContentView.swift in Sources */,
+				BAA0343A256FEB98008AB19D /* BowWOWApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA03443256FEB9D008AB19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA0344C256FEB9D008AB19D /* BowWOWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA0344E256FEB9D008AB19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA03457256FEB9D008AB19D /* BowWOWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAA03449256FEB9D008AB19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA03435256FEB98008AB19D /* BowWOW */;
+			targetProxy = BAA03448256FEB9D008AB19D /* PBXContainerItemProxy */;
+		};
+		BAA03454256FEB9D008AB19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAA03435256FEB98008AB19D /* BowWOW */;
+			targetProxy = BAA03453256FEB9D008AB19D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAA03459256FEB9D008AB19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAA0345A256FEB9D008AB19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAA0345C256FEB9D008AB19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BowWOW/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ7G2C64NA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BowWOW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.pengamelia.BowWOW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAA0345D256FEB9D008AB19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BowWOW/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ7G2C64NA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BowWOW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.pengamelia.BowWOW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAA0345F256FEB9D008AB19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ7G2C64NA;
+				INFOPLIST_FILE = BowWOWTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.pengamelia.BowWOWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowWOW.app/BowWOW";
+			};
+			name = Debug;
+		};
+		BAA03460256FEB9D008AB19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ7G2C64NA;
+				INFOPLIST_FILE = BowWOWTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.pengamelia.BowWOWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BowWOW.app/BowWOW";
+			};
+			name = Release;
+		};
+		BAA03462256FEB9D008AB19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ7G2C64NA;
+				INFOPLIST_FILE = BowWOWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.pengamelia.BowWOWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BowWOW;
+			};
+			name = Debug;
+		};
+		BAA03463256FEB9D008AB19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ7G2C64NA;
+				INFOPLIST_FILE = BowWOWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.pengamelia.BowWOWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BowWOW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAA03431256FEB98008AB19D /* Build configuration list for PBXProject "BowWOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA03459256FEB9D008AB19D /* Debug */,
+				BAA0345A256FEB9D008AB19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA0345B256FEB9D008AB19D /* Build configuration list for PBXNativeTarget "BowWOW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA0345C256FEB9D008AB19D /* Debug */,
+				BAA0345D256FEB9D008AB19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA0345E256FEB9D008AB19D /* Build configuration list for PBXNativeTarget "BowWOWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA0345F256FEB9D008AB19D /* Debug */,
+				BAA03460256FEB9D008AB19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA03461256FEB9D008AB19D /* Build configuration list for PBXNativeTarget "BowWOWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA03462256FEB9D008AB19D /* Debug */,
+				BAA03463256FEB9D008AB19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAA0342E256FEB98008AB19D /* Project object */;
+}
