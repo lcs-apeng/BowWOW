@@ -11,7 +11,8 @@ struct ContentView: View {
     
     @State private var dogImage = UIImage()
     
-    @State private var people:[Person] = [] //empty list
+    @State private var people: [Person] = [] //empty list
+
     
     
     var body: some View {
@@ -56,7 +57,7 @@ struct ContentView: View {
         request.httpMethod = "GET"
         
         //2. Run the request and process the response
-        URLSession.shared.dataTask(with:request) {data, response, error in
+        URLSession.shared.dataTask(with:request) { data, response, error in
             
             //handle the result here - attempt to unwrap optional data provided by task
             guard let peopleData = data else {
@@ -67,23 +68,29 @@ struct ContentView: View {
                 return
             }
                 
-                print(String(data: peopleData, encoding: .utf8)!)
+            print(String(data: peopleData, encoding: .utf8)!)
             
-            //set the array of names
-            DispatchQueue.main.async {
-                people = decodedPeopleData.sheet1
+            
+            // Now decode from JSON into an array of Swift native data types
+            if let decodedPeopleData = try? JSONDecoder().decode(People.self, from: peopleData) {
+                
+                print("People data decoded from JSON successfully")
+                print("Data is: \(decodedPeopleData.sheet1)")
+                
+                // Update the UI
+                DispatchQueue.main.async {
+                    people = decodedPeopleData.sheet1
+                }
+                                
+            } else {
+                
+                print("Invalid response from server.")
             }
             
-        } else {
             
-            print("Invaild response from server.")
-            
-            }
+        }.resume()
         
-    } .resume()
-        
-}
-    
+    }
     
     // Get a random pooch pic!
     func fetchMoreCuteness() {
@@ -164,6 +171,11 @@ struct ContentView: View {
         }.resume()
         
     }
+
+        
+}
+    
+    
     
 
 
