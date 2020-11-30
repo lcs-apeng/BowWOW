@@ -11,6 +11,9 @@ struct ContentView: View {
     
     @State private var dogImage = UIImage()
     
+    @State private var people:[Person] = [] //empty list
+    
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -27,10 +30,60 @@ struct ContentView: View {
                     .padding()
                 
                 Spacer()
+                
+                List(people) { person in
+                    Text(person.name)
+                }
+                
             }
             .navigationTitle("Bow WOW!")
         }
+        
+        .onAppear() {
+            fetchNames()
+        }
+        
     }
+    
+    
+    //get a list of names
+    func fetchNames() {
+        
+        //1. preapare a URLRequest to send our encoded data to JSON
+        let url = URL(string: "https://api.sheety.co/595b2bb46ff5645824e076a2174d3c22/peopleInClass/sheet1")!
+        var request = URLRequest (url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = "GET"
+        
+        //2. Run the request and process the response
+        URLSession.shared.dataTask(with:request) {data, response, error in
+            
+            //handle the result here - attempt to unwrap optional data provided by task
+            guard let peopleData = data else {
+                
+                //show the error meassage
+                print("No data in response: \(error?.localizedDescription ?? "Unknown error")")
+                
+                return
+            }
+                
+                print(String(data: peopleData, encoding: .utf8)!)
+            
+            //set the array of names
+            DispatchQueue.main.async {
+                people = decodedPeopleData.sheet1
+            }
+            
+        } else {
+            
+            print("Invaild response from server.")
+            
+            }
+        
+    } .resume()
+        
+}
+    
     
     // Get a random pooch pic!
     func fetchMoreCuteness() {
@@ -112,7 +165,7 @@ struct ContentView: View {
         
     }
     
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

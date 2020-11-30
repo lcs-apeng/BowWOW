@@ -14,6 +14,7 @@
 		BAA0344C256FEB9D008AB19D /* BowWOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0344B256FEB9D008AB19D /* BowWOWTests.swift */; };
 		BAA03457256FEB9D008AB19D /* BowWOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */; };
 		BAA03468256FF40A008AB19D /* RandomDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA03467256FF40A008AB19D /* RandomDog.swift */; };
+		BAD55B61257557520009C3D2 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD55B60257557520009C3D2 /* person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BAA03456256FEB9D008AB19D /* BowWOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowWOWUITests.swift; sourceTree = "<group>"; };
 		BAA03458256FEB9D008AB19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA03467256FF40A008AB19D /* RandomDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDog.swift; sourceTree = "<group>"; };
+		BAD55B60257557520009C3D2 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BAA0343D256FEB9C008AB19D /* Assets.xcassets */,
 				BAA03442256FEB9C008AB19D /* Info.plist */,
 				BAA0343F256FEB9C008AB19D /* Preview Content */,
+				BAD55B60257557520009C3D2 /* person.swift */,
 			);
 			path = BowWOW;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA03468256FF40A008AB19D /* RandomDog.swift in Sources */,
+				BAD55B61257557520009C3D2 /* person.swift in Sources */,
 				BAA0343C256FEB98008AB19D /* ContentView.swift in Sources */,
 				BAA0343A256FEB98008AB19D /* BowWOWApp.swift in Sources */,
 			);
